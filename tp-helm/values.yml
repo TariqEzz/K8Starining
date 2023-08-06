@@ -11,4 +11,7 @@ mariadb:
   master:
     persistence:
       enabled: false
+seccompProfile:
+  type: "RuntimeDefault"
+      
 
